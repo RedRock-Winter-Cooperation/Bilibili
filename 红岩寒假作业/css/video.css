@@ -1,0 +1,203 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	display: block;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.content-left{
+	width: 800px;
+}
+.content-left .top span{
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+.player {
+	margin-top: 20px;
+	width: 800px;
+	height: 500px;
+	background: #000 url(../image/loading.gif) center/300px no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+video {
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+}
+.controls {
+	width: 800px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 99;
+	opacity: 0.7;
+	display: none;
+}
+
+.player:hover .controls {
+	opacity: 1;
+}
+.controls .switch {
+	position: absolute;
+	top: 11px;
+	left: 11px;
+}
+.controls .switch img{
+	width: 30px;
+	margin-top: -5px;
+}
+.controls .expand {
+	position: absolute;
+	right: 11px;
+	top: 11px;
+}
+.controls .expand img{
+	width: 25px;
+	margin-top: -3px;
+}
+.controls .expand:hover {
+	color: blue;
+}
+.progress {
+	width: 480px;
+	height: 10px;
+	border-radius: 3px;
+	overflow: hidden;
+	background-color: #555;
+	cursor: pointer;
+	position: absolute;
+	top: 16px;
+	left: 45px;
+}
+.progress .line {
+	width: 0;
+	height: 100%;
+	background-color: #fff;
+}
+.progress .bar {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.timer {
+	height: 20px;
+	line-height: 20px;
+	position: absolute;
+	left: 540px;
+	top: 11px;
+	color: #FFF;
+	font-size: 14px;
+}
+.player:hover .controls{
+	display: block;
+}
+
+.content-left .barrage{
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+}
+.content-left .barrage input{
+	width: 340px;
+	height: 25px;
+	line-height: 25px;
+	outline: none;
+	border-color: whitesmoke;
+	border: 1px solid lightgray;
+}
+.content-left .barrage button{
+	width: 48px;
+	height: 28.5px;
+	color: white;
+	background-color: #73c9e5;
+	border: 0px;
+	outline: none;
+}
+.fa-barrage{
+	position: absolute;
+	color: red;
+	font-size: 15px;
+	left: 820px;
+	white-space: nowrap;
+}
+.discuss{
+	margin-top: 20px;
+	width: 800px;
+}
+.discuss .send{
+	width: 800px;
+	height: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.discuss .send img{
+	width: 50px;
+	border-radius: 50px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.discuss span{
+	font-size: 20px;
+}
+.discuss .send .right{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.discuss .send textarea{
+	width: 600px;
+	height: 70px;
+	margin-left: 20px;
+	margin-top: 15px;
+	outline: none;
+}
+.discuss .send button{
+	width: 60px;
+	height: 70px;
+	background-color: #73c9e5;
+	outline: none;
+	margin-top: 15px;
+	margin-left: 10px;
+	border: 0px;
+	color: white;
+}
+.disContent .creatDiv{
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	border-top: 1px  solid black;
+	border-bottom: 1px  solid black;
+}
+.disContent .disImg{
+	width: 50px;
+	border-radius: 50px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.disContent .disSpan{
+	width: 600px;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid lightgray;
+}
+.disContent .disRemove{
+	margin-top: 75px;
+}
