@@ -1,0 +1,28 @@
+{{define "app"}}
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>{{template "title" .}}</title>
+        <link href="/css/index.css" rel="stylesheet">
+        <link href="/css/register.css" rel="stylesheet">
+        <link href="/css/login.css" rel="stylesheet">
+        <link href="/css/homepage.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <div class="container-sm">
+        <div class="row mt-5">
+
+            {{template "sidebar" .}}
+
+            {{template "main" .}}
+
+        </div>
+    </div>
+
+    </body>
+
+    </html>
+{{end}}

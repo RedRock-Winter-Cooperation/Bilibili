@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/video.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content-left">
+            <div class="user">
+                <a href="http://localhost:3000/person">
+                <img src="https://i0.hdslb.com/bfs/face/member/noface.jpg@72w_72h_1c.webp" alt="">
+                <span>用户1</span>
+                </a>
+            </div>
+            <div class="top">
+                <span>《waiting for love》劲爆MV</span>
+            </div>
+            <div class="player">
+                <video src="/video/Avicii-Waiting For Love(标清).mp4"></video>
+                <div class="controls">
+                    <a href="javascript:;" class="switch">
+                        <img src="image/begin.png" alt="" id="img">
+                    </a>
+                    <a href="javascript:;" class="expand">
+                        <img src="image/all.png" alt="">
+                    </a>
+                    <div class="progress">
+                        <div class="line"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="timer">
+                        <span class="current">00:00:00</span> /
+                        <span class="total">00:00:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="barrage">
+                <input id="ipt1" type="text" placeholder="发个友善的弹幕见证当下">
+                <button id="btn1">发送</button>
+            </div>
+            <div class="discuss">
+                <span>评论</span>
+                <div class="send">
+                    <div>
+                        <img src="https://i0.hdslb.com/bfs/face/member/noface.jpg@72w_72h_1c.webp">
+                    </div>
+                    <div class="right">
+                        <textarea placeholder="发表友善的评论" id="ipt2"></textarea>
+                        <button id="btn2">发表<br>评论</button>
+                    </div>
+                </div>
+                <div class="disContent">
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            相关推荐
+        </div>
+    </div>
+    <script src="/js/video.js"></script>
+</body>
+</html>

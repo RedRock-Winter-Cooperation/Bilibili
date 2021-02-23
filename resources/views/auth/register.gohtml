@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+</head>
+<body>
+<div id="userFrom" class="form">
+    <p id="top">注册</p>
+    <form>
+        <div class="form-group">
+            <div>
+                <input id="username" class="skr" type="username" placeholder="昵称" >
+                <em id="usernameError"></em>
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <input id="password" class="skr" type="password" placeholder="密码（6-11个字符组成，区分大小写）">
+                <em id="passwordError"></em>
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <select class="skr1">
+                    <option>中国大陆</option>
+                    <option>其他</option>
+                </select>
+                <input id="phone" class="skr2" placeholder="常用电话号码" type="text">
+                <em id="phoneError"></em>
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <input class="skr" placeholder="请输入验证码">
+                <button class="yz" type="button">获取验证码</button>
+                <em></em>
+            </div>
+        </div>
+        <div class="form-group" style="height: 40px;">
+            <div class="agreement">
+                <input id="checkbox" value="box" type="checkbox">
+                <span id="jw">我以同意<a href="https://www.bilibili.com/protocal/licence.html?spm_id_from=333.39.b_7265676973746572466f726d.1">《哔哩哔哩弹幕网用户使用协议》</a>和<a href="https://www.bilibili.com/blackboard/privacy-pc.html?spm_id_from=333.39.b_7265676973746572466f726d.2">《哔哩哔哩隐私协议》</a></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div>
+                <input type="button" id="submit" class="skr3" value="注册"><br/>
+                <a class="dl" href="http://localhost:3000/auth/login ">已有账号，直接登录></a>
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="/js/register.js"></script>
+    <script src="/js/ajax.js"></script>
+</div>
+</body>
+</html>

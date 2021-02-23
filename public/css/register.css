@@ -1,0 +1,86 @@
+.form{
+    width: 1000px;
+    margin: auto;
+}
+.form-group em{
+    color: red;
+    font-size: 12px;
+    font-style: normal;
+}
+#top {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+#top:before,
+#top:after {
+    content:"";
+    flex: 1 1;
+    border-bottom: 1px solid gray   ;
+    margin: auto;
+}
+.form-group{
+    height: 80px;
+}
+.form-group div{
+    width: 425px;
+    margin: auto;
+    position: relative;
+}
+.skr,.skr3{
+    padding: 0px 15px;
+    width: 390px;
+    height: 40px;
+}
+.skr3{
+    width: 420px;
+}
+.skr1{
+    
+    width: 100px;
+    height: 43.8px;
+}
+.skr2{
+    padding: 0px 15px;
+    height: 40px;
+    width: 291px;
+    margin-left: -6px;
+}
+.agreement{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#checkbox{
+    width: 18px;
+}
+#jw{
+    font-size: 13px;
+    display: inline;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#jw a{
+    text-decoration: none;
+    color: #00BFFF;
+}
+.dl{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    float: right;
+    color: #00BFFF;
+}
+.skr{
+    position: relative;
+}
+.yz{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 2px;
+    right: 3px;
+    background-color: #73c9e5;
+    border: 0px;
+    border-radius: 4px;
+}
